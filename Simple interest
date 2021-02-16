@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+float Principal,Rate,Time,SI;
+printf("Enter value of Principal:");
+scanf("%f",& Principal);
+printf("Enter value of Rate:");
+scanf("%f",&Rate);
+printf("Enter value of Time:");
+scanf("%f",&Time);
+
+
+/*formula for simple interest*/
+SI = Principal*Rate*Time/100;
+printf("Simple interest is %f",SI);
+return 0;
+}
